@@ -1,0 +1,296 @@
+[
+  {
+    "roomId": "top_floor_bath",
+    "name": "Topfloor Bathroom",
+    "radiatorDeviceIds": [
+      "bathroom_rad_300",
+      "bathroom_rad_600"
+    ],
+    "controlMode": "schedule",
+    "sensorDeviceId": null,
+    "targetTempC": null,
+    "hysteresisC": null,
+    "schedule": {
+      "mon": [
+        {
+          "startTime": "06:00",
+          "endTime": "07:00",
+          "enabledRadiatorIds": [
+            "bathroom_rad_300",
+            "bathroom_rad_600"
+          ]
+        },
+        {
+          "startTime": "00:00",
+          "endTime": "02:00",
+          "enabledRadiatorIds": [
+            "bathroom_rad_600"
+          ]
+        }
+      ],
+      "tue": [
+        {
+          "startTime": "06:00",
+          "endTime": "07:00",
+          "enabledRadiatorIds": [
+            "bathroom_rad_300",
+            "bathroom_rad_600"
+          ]
+        },
+        {
+          "startTime": "00:00",
+          "endTime": "02:00",
+          "enabledRadiatorIds": [
+            "bathroom_rad_600"
+          ]
+        }
+      ],
+      "wed": [
+        {
+          "startTime": "06:00",
+          "endTime": "07:00",
+          "enabledRadiatorIds": [
+            "bathroom_rad_300",
+            "bathroom_rad_600"
+          ]
+        },
+        {
+          "startTime": "00:00",
+          "endTime": "02:00",
+          "enabledRadiatorIds": [
+            "bathroom_rad_600"
+          ]
+        }
+      ],
+      "thu": [
+        {
+          "startTime": "06:00",
+          "endTime": "07:00",
+          "enabledRadiatorIds": [
+            "bathroom_rad_300",
+            "bathroom_rad_600"
+          ]
+        },
+        {
+          "startTime": "00:00",
+          "endTime": "02:00",
+          "enabledRadiatorIds": [
+            "bathroom_rad_600"
+          ]
+        }
+      ],
+      "fri": [
+        {
+          "startTime": "06:00",
+          "endTime": "07:00",
+          "enabledRadiatorIds": [
+            "bathroom_rad_300",
+            "bathroom_rad_600"
+          ]
+        },
+        {
+          "startTime": "00:00",
+          "endTime": "02:00",
+          "enabledRadiatorIds": [
+            "bathroom_rad_600"
+          ]
+        }
+      ],
+      "sat": [
+        {
+          "startTime": "00:00",
+          "endTime": "02:00",
+          "enabledRadiatorIds": [
+            "bathroom_rad_300",
+            "bathroom_rad_600"
+          ]
+        }
+      ],
+      "sun": [
+        {
+          "startTime": "00:00",
+          "endTime": "02:00",
+          "enabledRadiatorIds": [
+            "bathroom_rad_300",
+            "bathroom_rad_600"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "roomId": "master_bathroom",
+    "name": "Master Bathroom",
+    "radiatorDeviceIds": [
+      "dual_bathroom_rad",
+      "dual_bathroom_rad_2"
+    ],
+    "controlMode": "schedule",
+    "sensorDeviceId": null,
+    "targetTempC": null,
+    "hysteresisC": null,
+    "schedule": {
+      "mon": [
+        {
+          "startTime": "06:00",
+          "endTime": "07:00",
+          "enabledRadiatorIds": [
+            "dual_bathroom_rad",
+            "dual_bathroom_rad_2"
+          ]
+        }
+      ],
+      "tue": [
+        {
+          "startTime": "06:00",
+          "endTime": "07:00",
+          "enabledRadiatorIds": [
+            "dual_bathroom_rad",
+            "dual_bathroom_rad_2"
+          ]
+        }
+      ],
+      "wed": [
+        {
+          "startTime": "06:00",
+          "endTime": "07:00",
+          "enabledRadiatorIds": [
+            "dual_bathroom_rad",
+            "dual_bathroom_rad_2"
+          ]
+        }
+      ],
+      "thu": [
+        {
+          "startTime": "06:00",
+          "endTime": "07:00",
+          "enabledRadiatorIds": [
+            "dual_bathroom_rad",
+            "dual_bathroom_rad_2"
+          ]
+        }
+      ],
+      "fri": [
+        {
+          "startTime": "06:00",
+          "endTime": "07:00",
+          "enabledRadiatorIds": [
+            "dual_bathroom_rad",
+            "dual_bathroom_rad_2"
+          ]
+        }
+      ],
+      "sat": [
+        {
+          "startTime": "06:00",
+          "endTime": "07:00",
+          "enabledRadiatorIds": [
+            "dual_bathroom_rad",
+            "dual_bathroom_rad_2"
+          ]
+        }
+      ],
+      "sun": [
+        {
+          "startTime": "06:00",
+          "endTime": "07:00",
+          "enabledRadiatorIds": [
+            "dual_bathroom_rad",
+            "dual_bathroom_rad_2"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "roomId": "master_bedroom",
+    "name": "Master Bedroom Radiators",
+    "radiatorDeviceIds": [
+      "bedroom_middle_rad",
+      "bedroom_lr_rad"
+    ],
+    "controlMode": "thermostat",
+    "sensorDeviceId": "bedroom_middle_rad",
+    "targetTempC": 10,
+    "hysteresisC": 1,
+    "schedule": {
+      "mon": [
+        {
+          "startTime": "00:00",
+          "endTime": "07:00",
+          "enabledRadiatorIds": [
+            "bedroom_middle_rad",
+            "bedroom_lr_rad"
+          ],
+          "targetTempC": 20
+        }
+      ],
+      "tue": [
+        {
+          "startTime": "00:00",
+          "endTime": "07:00",
+          "enabledRadiatorIds": [
+            "bedroom_middle_rad",
+            "bedroom_lr_rad"
+          ],
+          "targetTempC": 20
+        }
+      ],
+      "wed": [
+        {
+          "startTime": "00:00",
+          "endTime": "07:00",
+          "enabledRadiatorIds": [
+            "bedroom_middle_rad",
+            "bedroom_lr_rad"
+          ],
+          "targetTempC": 20
+        }
+      ],
+      "thu": [
+        {
+          "startTime": "00:00",
+          "endTime": "07:00",
+          "enabledRadiatorIds": [
+            "bedroom_middle_rad",
+            "bedroom_lr_rad"
+          ],
+          "targetTempC": 20
+        }
+      ],
+      "fri": [
+        {
+          "startTime": "00:00",
+          "endTime": "07:00",
+          "enabledRadiatorIds": [
+            "bedroom_middle_rad",
+            "bedroom_lr_rad"
+          ],
+          "targetTempC": 20
+        }
+      ],
+      "sat": [
+        {
+          "startTime": "00:00",
+          "endTime": "07:00",
+          "enabledRadiatorIds": [
+            "bedroom_middle_rad",
+            "bedroom_lr_rad"
+          ],
+          "targetTempC": 20
+        }
+      ],
+      "sun": [
+        {
+          "startTime": "00:00",
+          "endTime": "07:00",
+          "enabledRadiatorIds": [
+            "bedroom_middle_rad",
+            "bedroom_lr_rad"
+          ],
+          "targetTempC": 20
+        }
+      ]
+    }
+  }
+]

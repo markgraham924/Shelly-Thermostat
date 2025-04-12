@@ -1,0 +1,39 @@
+[
+  {
+    "id": "dual_bathroom_rad",
+    "name": "Master Bathroom Radiator One",
+    "ip": "192.168.0.51",
+    "relayIndex": 0
+  },
+  {
+    "id": "dual_bathroom_rad_2",
+    "name": "Master Bathroom Radiator Two",
+    "ip": "192.168.0.51",
+    "relayIndex": 1
+  },
+  {
+    "id": "bedroom_middle_rad",
+    "name": "Master Bedroom Middle Radiator",
+    "ip": "192.168.0.31",
+    "relayIndex": 0,
+    "btSensorId": 202
+  },
+  {
+    "id": "bathroom_rad_300",
+    "name": "Topfloor Bathroom Radiator Small",
+    "ip": "192.168.0.35",
+    "relayIndex": 0
+  },
+  {
+    "id": "bedroom_lr_rad",
+    "name": "Master Bedroom Left / Right Radiator",
+    "ip": "192.168.0.185",
+    "relayIndex": 0
+  },
+  {
+    "id": "bathroom_rad_600",
+    "name": "Topfloor Bathroom Radiator Tall",
+    "ip": "192.168.0.33",
+    "relayIndex": 0
+  }
+]
