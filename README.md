@@ -2,8 +2,6 @@
 
 A smart heating control system that manages Shelly-powered radiators using schedules and temperature sensors.
 
-![System Overview - Architecture Diagram](images/system-architecture.png)
-
 ## Overview
 
 This project provides a complete solution for controlling radiators powered by Shelly smart relays. It consists of:
@@ -11,7 +9,8 @@ This project provides a complete solution for controlling radiators powered by S
 1. **Backend Service** (`shelly-local-backend`) - Express.js server that communicates with Shelly devices and implements heating control logic
 2. **Web Interface** (`shelly-heating-ui`) - React-based UI for managing rooms, devices, schedules, and controlling heating
 
-![Shelly Device Connected to Radiator](images/shelly-radiator-setup.jpg)
+![Shelly Device Connected to Radiator](./images//physical-installation%20(1).jpg.jpg)
+![Shelly Device Connected to Radiator](./images//physical-installation%20(2).jpg.jpg)
 
 ## Features
 
@@ -34,13 +33,13 @@ This project provides a complete solution for controlling radiators powered by S
 ## Screenshots
 
 ### Home Screen
-![Home Screen - Room Overview](images/home-screen.png)
+![Home Screen - Room Overview](./images/homepage.png)
 
 ### Schedule Editor
-![Schedule Editor Screen](images/schedule-editor.png)
+![Schedule Editor Screen](./images/schedule-manager.png)
 
 ### Settings Panel
-![Settings Screen - Device Configuration](images/settings-screen.png)
+![Settings Screen - Device Configuration](./images/settings-page.png)
 
 ## Installation
 
@@ -94,13 +93,9 @@ The backend server uses two primary JSON files to store configuration:
 
 You can edit these files directly, or use the web interface to manage settings.
 
-![JSON Configuration Example](images/json-config-example.png)
-
 ### Network Configuration
 
 Ensure all Shelly devices are on the same network as the backend server. Edit the `HOST` and `PORT` variables in `server.js` to match your network setup.
-
-![Network Diagram](images/network-setup.png)
 
 ### Frontend Configuration
 
@@ -115,7 +110,7 @@ The home page shows all rooms with their current status. From here you can:
 - Toggle boost mode for immediate heating
 - View which radiators are currently active
 
-![Room Card with Boost Mode](images/room-card-boost.png)
+![Room Card with Boost Mode](./images/boost-mode.png)
 
 ### Schedule Page
 
@@ -126,7 +121,7 @@ The schedule page allows you to:
 - Select which radiators should be active during each period
 - Copy schedules between days for quick setup
 
-![Schedule Copy Feature](images/schedule-copy-feature.png)
+![Schedule Copy Feature](./images/copy-schedule.png)
 
 ### Settings Page
 
@@ -135,7 +130,7 @@ The settings page provides configuration for:
 - Creating and configuring rooms
 - Setting control modes and parameters
 
-![Adding a New Device](images/add-device-form.png)
+![Adding a New Device](./images/add-device.png)
 
 ## API Endpoints
 
@@ -147,15 +142,13 @@ The backend provides REST API endpoints for:
 - Temperature control: `/rooms/:roomId/target`
 - Schedule control: `/rooms/:roomId/schedule`
 
-![API Structure Diagram](images/api-structure.png)
-
 ## Control Modes
 
 ### Schedule Mode
 
 Schedule mode activates radiators based on time schedules. Each day can have multiple time slots, and each slot can activate different radiators.
 
-![Schedule Mode Example](images/schedule-mode-example.png)
+![Schedule Mode Example](./images/schedule-manager.png)
 
 ### Thermostat Mode
 
@@ -164,8 +157,6 @@ Thermostat mode uses temperature sensors to maintain a target temperature. The s
 2. Compare it with the target temperature (with hysteresis)
 3. Activate radiators when heating is needed
 4. Turn off radiators when the target temperature is reached
-
-![Thermostat Hysteresis Diagram](images/thermostat-hysteresis.png)
 
 Thermostatic control can be combined with schedules for different target temperatures throughout the day.
 
