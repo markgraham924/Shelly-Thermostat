@@ -9,8 +9,8 @@ This project provides a complete solution for controlling radiators powered by S
 1. **Backend Service** (`shelly-local-backend`) - Express.js server that communicates with Shelly devices and implements heating control logic
 2. **Web Interface** (`shelly-heating-ui`) - React-based UI for managing rooms, devices, schedules, and controlling heating
 
-![Shelly Device Connected to Radiator](./images//physical-installation%20(1).jpg.jpg)
-![Shelly Device Connected to Radiator](./images//physical-installation%20(2).jpg.jpg)
+![Shelly Device Connected to Radiator](./images//physical-installation%20(1).jpg)
+![Shelly Device Connected to Radiator](./images//physical-installation%20(2).jpg)
 
 ## Features
 
